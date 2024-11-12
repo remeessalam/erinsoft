@@ -9,6 +9,7 @@ import SectionWhyChooseUs1 from "../../sections/home/index/section-why-choose-us
 import SectionBlogs1 from "../../sections/home/index/section-blogs1";
 import { useEffect } from "react";
 import { loadScript } from "../../../globals/constants";
+import Sectionourresult from "../../sections/home/index/section-our-result";
 
 function Home1Page() {
   useEffect(() => {
@@ -27,6 +28,7 @@ function Home1Page() {
       {/* <SectionClients1 /> */}
       {/* <SectionCaseStudy1 /> */}
       <SectionBlogs1 />
+      <Sectionourresult />
     </>
   );
 }

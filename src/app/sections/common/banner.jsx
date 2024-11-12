@@ -1,12 +1,12 @@
 import { NavLink } from "react-router-dom";
 import { publicUrlFor } from "../../../globals/constants";
-import banner from "../../../assets/images/servicesbanner.jpg";
+// import banner from "../../../assets/images/servicesbanner.jpg";
 function Banner({ _data }) {
   return (
     <>
       <div
         className="full-landing-image sx-bnr-inr overlay-wraper  bg-top-center"
-        style={{ backgroundImage: `url(${banner})` }}
+        style={{ backgroundImage: `url(${_data})` }}
       >
         <div className="overlay-main bg-white opacity-0" />
         <div className="container">

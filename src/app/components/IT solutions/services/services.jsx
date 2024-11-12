@@ -7,6 +7,7 @@ import SectionClients2 from "../../../sections/home/index2/section-clients2";
 import { bannerData } from "../../../../globals/banner";
 import { useEffect } from "react";
 import { loadScript } from "../../../../globals/constants";
+import banner from "../../../../assets/images/servicesbanner.jpg";
 
 function ServicesPage() {
   useEffect(() => {
@@ -15,7 +16,7 @@ function ServicesPage() {
 
   return (
     <>
-      <Banner _data={bannerData.services} />
+      <Banner _data={banner} />
       <SectionWhyChooseUs1 />
       <SectionAboutCompany1 />
       <SectionVideo2 />
