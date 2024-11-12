@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import ItodoImage from "../../elements/itodo-img";
 import { useState } from "react";
 import { loadScript } from "../../../globals/constants";
@@ -6,7 +6,7 @@ import { useEffect } from "react";
 import logo from "../../../assets/images/Logo/Logo.png";
 function Header1() {
   const [isActive, setIsActive] = useState(false);
-
+  const location = useLocation();
   function toggleNavClass() {
     setIsActive(!isActive);
   }
@@ -163,7 +163,7 @@ function Header1() {
               {/* MAIN NAVIGATION */}
               <div className="header-nav navbar-collapse collapse d-flex justify-content-end collapse ">
                 <ul className=" nav navbar-nav ">
-                  <li className="active">
+                  <li className={location.pathname === "/" ? "active" : ""}>
                     <NavLink to="/">Home</NavLink>
                     {/* <ul className="sub-menu">
                                             <li><NavLink to="/index">Home-1</NavLink></li>
@@ -171,7 +171,11 @@ function Header1() {
                                             <li><NavLink to="/index3">Home-3</NavLink></li>
                                         </ul> */}
                   </li>
-                  <li>
+                  <li
+                    className={
+                      location.pathname === "/services" ? "active" : ""
+                    }
+                  >
                     <NavLink to="/services">Services</NavLink>
                     {/* <ul className="sub-menu">
                       <li>
@@ -200,7 +204,11 @@ function Header1() {
                       </li>
                     </ul> */}
                   </li>
-                  <li>
+                  <li
+                    className={
+                      location.pathname === "/about-us" ? "active" : ""
+                    }
+                  >
                     <NavLink to="/about-us">About us</NavLink>
                     {/* <ul className="sub-menu">
                       <li>
@@ -244,7 +252,11 @@ function Header1() {
                       </li>
                     </ul>
                   </li> */}
-                  <li>
+                  <li
+                    className={
+                      location.pathname === "//contact-us" ? "active" : ""
+                    }
+                  >
                     <NavLink to="/contact-us">Contact Us</NavLink>
                   </li>
                 </ul>
