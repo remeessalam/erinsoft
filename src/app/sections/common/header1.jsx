@@ -164,7 +164,7 @@ function Header1() {
               <div className="header-nav navbar-collapse collapse d-flex justify-content-end collapse ">
                 <ul className=" nav navbar-nav ">
                   <li className="active">
-                    <NavLink to="/index">Home</NavLink>
+                    <NavLink to="/">Home</NavLink>
                     {/* <ul className="sub-menu">
                                             <li><NavLink to="/index">Home-1</NavLink></li>
                                             <li><NavLink to="/index2">Home-2</NavLink></li>
@@ -172,7 +172,7 @@ function Header1() {
                                         </ul> */}
                   </li>
                   <li>
-                    <NavLink to="/about-us">Services</NavLink>
+                    <NavLink to="/services">Services</NavLink>
                     {/* <ul className="sub-menu">
                       <li>
                         <NavLink to="/about-us">About Us</NavLink>

@@ -9,21 +9,20 @@ import { useEffect } from "react";
 import { loadScript } from "../../../../globals/constants";
 
 function ServicesPage() {
+  useEffect(() => {
+    loadScript("js/custom.js");
+  });
 
-    useEffect(()=>{
-        loadScript("js/custom.js")
-    })
-
-    return (
-        <>
-            <Banner _data={bannerData.services} />
-            <SectionWhyChooseUs1 />
-            <SectionAboutCompany1 />
-            <SectionVideo2 />
-            <SectionWhyChooseUs4 />
-            <SectionClients2 />
-        </>
-    )
+  return (
+    <>
+      <Banner _data={bannerData.services} />
+      <SectionWhyChooseUs1 />
+      <SectionAboutCompany1 />
+      <SectionVideo2 />
+      <SectionWhyChooseUs4 />
+      {/* <SectionClients2 /> */}
+    </>
+  );
 }
 
 export default ServicesPage;

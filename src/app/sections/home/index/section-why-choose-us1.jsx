@@ -1,13 +1,7 @@
 import { ourServices, publicUrlFor } from "../../../../globals/constants";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import backgroundimage from "../../../../assets/images/whychooseusbackground.jpg";
-import customdevelopment from "../../../../assets/images/png/cutomedevelopment.png";
-import mobiledevelopment from "../../../../assets/images/png/mobile-development.png";
-import webdevelopment from "../../../../assets/images/png/webdevelopment.png";
-import artificila from "../../../../assets/images/png/artificial-intelligence.png";
-import cloudcomputing from "../../../../assets/images/png/cloudcomputing.png";
-import cybersecurity from "../../../../assets/images/png/cybersecurity.png";
-import uxdesign from "../../../../assets/images/png/ux-design.png";
+
 function SectionWhyChooseUs1() {
   let styleForCard = {
     display: "flex",
