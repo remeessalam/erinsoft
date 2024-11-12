@@ -1,5 +1,5 @@
 import ItodoImage from "../../../elements/itodo-img";
-import ourresult from "../../../../assets/images/";
+import ourresult from "../../../../assets/images/ourresult.jpg";
 function Sectionourresult() {
   return (
     <>
