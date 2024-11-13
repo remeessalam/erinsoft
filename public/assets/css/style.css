@@ -8903,6 +8903,7 @@ New Template Css Start
   line-height: 30px;
   color: var(--white);
   margin-bottom: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 .sx-bnr-1-wrap-outer .sx-bnr-1-wrap .site-button {
   display: inline-flex;
