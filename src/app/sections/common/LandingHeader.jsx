@@ -4,7 +4,13 @@ import { useState } from "react";
 import { loadScript } from "../../../globals/constants";
 import { useEffect } from "react";
 import logo from "../../../assets/images/Logo/Logo.png";
-function LandingHeader() {
+function LandingHeader({
+  homeRef,
+  aboutRef,
+  servicesRef,
+  contactRef,
+  scrollToSection,
+}) {
   const [isActive, setIsActive] = useState(false);
   const location = useLocation();
   function toggleNavClass() {
@@ -45,30 +51,48 @@ function LandingHeader() {
               {/* MAIN NAVIGATION */}
               <div className="header-nav navbar-collapse collapse d-flex justify-content-end collapse ">
                 <ul className=" nav navbar-nav ">
-                  <li className={location.pathname === "/" ? "active" : ""}>
-                    <NavLink to="/">Home</NavLink>
+                  <li
+                    className={location.pathname === "/" ? "active" : ""}
+                    onClick={(e) => {
+                      e.preventDefault(); // Prevent default anchor behavior
+                      scrollToSection(homeRef); // Call the scroll function
+                    }}
+                  >
+                    <NavLink>Home</NavLink>
                   </li>
                   <li
                     className={
                       location.pathname === "/services" ? "active" : ""
                     }
+                    onClick={(e) => {
+                      e.preventDefault(); // Prevent default anchor behavior
+                      scrollToSection(servicesRef); // Call the scroll function
+                    }}
                   >
-                    <NavLink to="/services">Services</NavLink>
+                    <NavLink>Services</NavLink>
                   </li>
                   <li
                     className={
                       location.pathname === "/about-us" ? "active" : ""
                     }
+                    onClick={(e) => {
+                      e.preventDefault(); // Prevent default anchor behavior
+                      scrollToSection(aboutRef); // Call the scroll function
+                    }}
                   >
-                    <NavLink to="/about-us">About us</NavLink>
+                    <NavLink>About us</NavLink>
                   </li>
 
                   <li
                     className={
                       location.pathname === "//contact-us" ? "active" : ""
                     }
+                    onClick={(e) => {
+                      e.preventDefault(); // Prevent default anchor behavior
+                      scrollToSection(contactRef); // Call the scroll function
+                    }}
                   >
-                    <NavLink to="/contact-us">Contact Us</NavLink>
+                    <NavLink>Contact Us</NavLink>
                   </li>
                 </ul>
               </div>
