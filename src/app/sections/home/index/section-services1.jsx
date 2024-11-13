@@ -70,7 +70,7 @@ function SectionServices1() {
                         </p>
                         <div className="sx-center-btn">
                           <NavLink
-                            to="/services/detail"
+                            to="/about-us"
                             className="site-button-circle"
                           >
                             <i className="fa fa-long-arrow-right" />
@@ -110,7 +110,7 @@ function SectionServices1() {
                         </p>
                         <div className="sx-center-btn">
                           <NavLink
-                            to="/services/detail"
+                            to="/about-us"
                             className="site-button-circle active"
                           >
                             <i className="fa fa-long-arrow-right" />
@@ -145,7 +145,7 @@ function SectionServices1() {
                         </p>
                         <div className="sx-center-btn">
                           <NavLink
-                            to="/services/detail"
+                            to="/about-us"
                             className="site-button-circle"
                           >
                             <i className="fa fa-long-arrow-right" />
