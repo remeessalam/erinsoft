@@ -1,9 +1,7 @@
 import { useLocation } from "react-router-dom";
 import Footer from "../app/sections/common/footer";
 import Header1 from "../app/sections/common/header1";
-// import Header2 from "../app/sections/common/header2";
-// import Header3 from "../app/sections/common/header3";
-import AppRoutes from "../routing/app-routes";
+
 import LandingHeader from "../app/sections/common/LandingHeader";
 import { useRef } from "react";
 import Section from "../app/landingPage/components/Section";
@@ -22,7 +20,7 @@ function RootLandingLayout() {
   const scrollToSection = (ref) => {
     if (ref.current) {
       window.scrollTo({
-        top: ref.current.offsetTop - 28, // Adjust for header height
+        top: ref.current.offsetTop - 28,
         behavior: "smooth",
       });
     }
@@ -31,8 +29,6 @@ function RootLandingLayout() {
     <>
       <div className="page-wraper">
         {
-          // (pathname === "/index2" && <Header2 />) ||
-
           <LandingHeader
             homeRef={homeRef}
             aboutRef={aboutRef}
@@ -40,8 +36,6 @@ function RootLandingLayout() {
             contactRef={contactRef}
             scrollToSection={scrollToSection}
           />
-
-          // <Header1 />
         }
 
         <div className="page-content">
