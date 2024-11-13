@@ -21,37 +21,46 @@ import ContactUsPage from "../app/components/contactus/contact-us";
 import Home1Page from "../app/components/home/index";
 import Home2Page from "../app/components/home/index2";
 import Home3Page from "../app/components/home/index3";
+import LandingPage from "../app/landingPage/LandingPage";
 
 function AppRoutes() {
-    return (
-        <>
-            <Routes>
-                <Route path="/" element={<Home1Page />} />
-                <Route path="/index" element={<Home1Page />} />
-                <Route path="/index2" element={<Home2Page />} />
-                <Route path="/index3" element={<Home3Page />} />
-                <Route path="/about-us" element={<AboutUsPage />} />
-                <Route path="/faq" element={<FAQPage />} />
-                <Route path="/gallery" element={<GalleryPage />} />
-                <Route path="/icons" element={<IconsPage />} />
-                <Route path="/testimonials" element={<TestimonialsPage />} />
-                <Route path="/why-choose-us" element={<WhyChooseUsPage />} />
-                <Route path="/pricing" element={<PricingPage />} />
-                <Route path="/team" element={<TeamPage />} />
-                <Route path="/mission" element={<MissionVisionPage />} />
-                <Route path="/services" element={<ServicesPage />} />
-                <Route path="/services/detail" element={<ServicesDetailPage />} />
-                <Route path="/portfolio" element={<Portfolio1Page />} />
-                <Route path="/portfolio2" element={<Portfolio2Page />} />
-                <Route path="/portfolio/detail" element={<PortfolioDetailPage />} />
-                <Route path="/blogs" element={<BlogGridPage />} />
-                <Route path="/blogs/list" element={<BlogListSidebarPage />} />
-                <Route path="/blogs/detail-with-sidebar" element={<BlogDetailSidebarPage />} />
-                <Route path="/blogs/detail" element={<BlogDetailPage />} />
-                <Route path="/contact-us" element={<ContactUsPage />} />
-            </Routes>
-        </>
-    )
+  return (
+    <>
+      <Routes>
+        <Route path="/" element={<Home1Page />} />
+        <Route path="/index" element={<Home1Page />} />
+        {/* <Route path="/index2" element={<Home2Page />} /> */}
+        {/* <Route path="/index3" element={<Home3Page />} /> */}
+        <Route path="/about-us" element={<AboutUsPage />} />
+        {/* <Route path="/faq" element={<FAQPage />} /> */}
+        {/* <Route path="/gallery" element={<GalleryPage />} /> */}
+        {/* <Route path="/icons" element={<IconsPage />} /> */}
+        {/* <Route path="/testimonials" element={<TestimonialsPage />} /> */}
+        {/* <Route path="/why-choose-us" element={<WhyChooseUsPage />} /> */}
+        {/* <Route path="/pricing" element={<PricingPage />} /> */}
+        {/* <Route path="/team" element={<TeamPage />} /> */}
+        {/* <Route path="/mission" element={<MissionVisionPage />} /> */}
+        <Route path="/services" element={<ServicesPage />} />
+        {/* <Route path="/services/detail" element={<ServicesDetailPage />} /> */}
+        {/* <Route path="/portfolio" element={<Portfolio1Page />} /> */}
+        {/* <Route path="/portfolio2" element={<Portfolio2Page />} /> */}
+        {/* <Route path="/portfolio/detail" element={<PortfolioDetailPage />} /> */}
+        {/* <Route path="/blogs" element={<BlogGridPage />} /> */}
+        {/* <Route path="/blogs/list" element={<BlogListSidebarPage />} /> */}
+        {/* <Route path="/blogs/detail-with-sidebar" element={<BlogDetailSidebarPage />} /> */}
+        {/* <Route path="/blogs/detail" element={<BlogDetailPage />} /> */}
+        <Route path="/contact-us" element={<ContactUsPage />} />
+        <Route
+          path="/web-development"
+          element={<LandingPage page={"web-development"} />}
+        />
+        <Route
+          path="/app-development"
+          element={<LandingPage page={"app-development"} />}
+        />
+      </Routes>
+    </>
+  );
 }
 
 export default AppRoutes;

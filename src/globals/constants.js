@@ -8,6 +8,14 @@ import artificila from "../assets/images/png/artificial-intelligence.png";
 import cloudcomputing from "../assets/images/png/cloudcomputing.png";
 import cybersecurity from "../assets/images/png/cybersecurity.png";
 import uxdesign from "../assets/images/png/ux-design.png";
+import ecommerce from "../assets/images/png/landingecommerce.png";
+import socila from "../assets/images/png/landingsocial.png";
+import landing from "../assets/images/png/landing.png";
+import custom from "../assets/images/png/landingcustome.png";
+import ios from "../assets/images/png/landingios.png";
+import android from "../assets/images/png/landingandroin.png";
+import flutter from "../assets/images/png/landingflutter.png";
+import hybrid from "../assets/images/png/landingcloud.png";
 const baseUrl = process.env.PUBLIC_URL;
 
 export function publicUrlFor(path) {
@@ -122,6 +130,77 @@ export const whyChooseUs = {
       heading: "Commitment to Innovation",
       description:
         "In today’s fast-paced digital landscape, staying ahead of the curve is essential. At ErinSoft Technologies, we are dedicated to continual innovation. We adopt the latest technologies and industry best practices to provide you with solutions that not only meet your current needs but also anticipate future trends. Our forward-thinking approach allows your business to remain agile and responsive to market changes.",
+    },
+  ],
+};
+
+export const ourlandingServices = {
+  webServices: [
+    {
+      image: ecommerce,
+      heading: "E-commerce Websites",
+      shortDescription:
+        "Empowering your online business with custom e-commerce websites. Our solutions enhance user experience, optimize conversions, and support scalable growth.",
+      description:
+        "At ErinSoft Technologies, we specialize in building custom e-commerce websites that not only meet your business needs but also create seamless shopping experiences. Our solutions are designed to enhance customer engagement, streamline operations, and drive revenue growth. Whether you're launching a new online store or looking to upgrade an existing platform, our team crafts e-commerce websites tailored to your specific goals. We ensure that your site is user-friendly, mobile-responsive, and optimized for performance to help your business thrive in the digital marketplace.",
+    },
+    {
+      image: socila,
+      heading: "Social Media Websites",
+      shortDescription:
+        "Empowering your brand with custom social media websites. Our solutions enhance user interaction, foster community engagement, and drive growth.",
+      description:
+        "At ErinSoft Technologies, we specialize in creating custom social media websites that foster meaningful connections and vibrant communities. Our solutions are designed to enhance user experience, promote content sharing, and optimize interactions. Whether you're building a platform for social networking, content creation, or community engagement, our team crafts social media websites tailored to your unique needs. We ensure that your site is scalable, user-friendly, and optimized for performance, helping you build a strong online presence and create lasting connections.",
+    },
+    {
+      image: landing,
+      heading: "Landing Websites",
+      shortDescription:
+        "Empowering your brand with custom social media websites. Our solutions enhance user interaction, foster community engagement, and drive growth.",
+      description:
+        "At ErinSoft Technologies, we specialize in creating custom social media websites that foster meaningful connections and vibrant communities. Our solutions are designed to enhance user experience, promote content sharing, and optimize interactions. Whether you're building a platform for social networking, content creation, or community engagement, our team crafts social media websites tailored to your unique needs. We ensure that your site is scalable, user-friendly, and optimized for performance, helping you build a strong online presence and create lasting connections.",
+    },
+    {
+      image: custom,
+      heading: "Custom Websites",
+      shortDescription:
+        "Empowering your brand with custom websites. Our solutions are designed to reflect your unique identity, boost engagement, and drive long-term success.",
+      description:
+        "At ErinSoft Technologies, we specialize in creating custom websites that are tailored to meet the specific needs of your business. Whether you need a simple informational site or a complex platform with advanced functionality, our team designs solutions that align perfectly with your goals. We focus on delivering an intuitive user experience, seamless navigation, and mobile optimization, ensuring that your website stands out and performs exceptionally across all devices. Partner with us to build a website that not only enhances your online presence but also drives measurable results.",
+    },
+  ],
+  appServices: [
+    {
+      image: ios,
+      heading: "iOS Development",
+      shortDescription:
+        "Build and optimize custom iOS apps to deliver seamless user experiences, enhance performance, and drive engagement on Apple devices.",
+      description:
+        "At ErinSoft Technologies, we specialize in creating custom iOS apps tailored to your business needs. Whether you're developing a new app or optimizing an existing one, our solutions are designed to provide exceptional performance, intuitive interfaces, and seamless integration with Apple’s ecosystem. We focus on crafting apps that engage users, streamline processes, and deliver measurable results. Our team ensures that your app is user-friendly, scalable, and optimized for performance across all iOS devices, helping you achieve success in the competitive mobile market.",
+    },
+    {
+      image: android,
+      heading: "Android App Development",
+      shortDescription:
+        "Create powerful and intuitive Android applications that offer smooth performance, engaging user experiences, and drive business growth.",
+      description:
+        "At ErinSoft Technologies, we specialize in developing custom Android apps tailored to meet your business goals. Our apps are designed to provide a seamless user experience, intuitive interfaces, and high-performance functionality. Whether you need a consumer-facing app or an enterprise solution, our team focuses on delivering mobile apps that offer value to your users and align with your business objectives. We ensure that your app is scalable, secure, and optimized for the best performance on Android devices.",
+    },
+    {
+      image: flutter,
+      heading: "Flutter App Development",
+      shortDescription:
+        "Develop cross-platform mobile apps using Flutter, ensuring consistent performance, rich user experiences, and rapid deployment.",
+      description:
+        "At ErinSoft Technologies, we specialize in Flutter app development to create high-quality, cross-platform mobile applications that work seamlessly on both iOS and Android devices. Our team leverages Flutter's powerful features to build fast, responsive, and visually appealing apps that provide an exceptional user experience. Whether you're launching a new app or need to enhance an existing one, we ensure your app is scalable, easy to maintain, and optimized for performance across platforms.",
+    },
+    {
+      image: hybrid,
+      heading: "Hybrid App Development",
+      shortDescription:
+        "Build cost-effective hybrid mobile apps that deliver native-like performance on both iOS and Android, with quicker time-to-market.",
+      description:
+        "At ErinSoft Technologies, we offer hybrid app development services that combine the best of both web and native apps to provide high-quality, cost-effective solutions. Our hybrid apps are designed to run seamlessly across iOS and Android devices, offering native-like performance and user experience. Whether you need a simple informational app or a feature-rich application, our team ensures fast development, seamless integration, and optimized performance, all while keeping costs down and reducing time-to-market.",
     },
   ],
 };
