@@ -30,9 +30,9 @@ function Footer() {
         {/* FOOTER BLOCKES START */}
         <div className="footer-top">
           <div className="container">
-            <div className="row">
+            <div className="row ">
               {/* ABOUT COMPANY */}
-              <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6">
+              <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                 <div className="widget widget_about">
                   <div className="logo-footer clearfix p-b15">
                     {/* <NavLink to="/index" className="sx-text-primary"> */}
@@ -104,7 +104,7 @@ function Footer() {
                 </div>
               </div> */}
               {/* SOLUTIONS */}
-              <div className="col-xl-2 col-lg-6 col-md-6 col-sm-6 col-12 col footer-col-3">
+              <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 col footer-col-3">
                 <div className="widget widget_info">
                   <h4 className="sx-f-title">Solutions</h4>
                   <ul>

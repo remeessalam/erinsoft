@@ -16,12 +16,7 @@ function RootLayout() {
   return (
     <>
       <div className="page-wraper">
-        {
-          // (pathname === "/index2" && <Header2 />) ||
-          <Header1 />
-
-          // <Header1 />
-        }
+        <Header1 />
 
         <div className="page-content">
           <AppRoutes />
