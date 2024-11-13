@@ -18,7 +18,7 @@ function RootLayout() {
       <div className="page-wraper">
         {
           // (pathname === "/index2" && <Header2 />) ||
-          pathname === "/" ? <Header1 /> : <LandingHeader />
+          <Header1 />
 
           // <Header1 />
         }
