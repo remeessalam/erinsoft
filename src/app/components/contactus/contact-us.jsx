@@ -160,13 +160,13 @@ function ContactUsPage() {
         </div>
       </div>
       {/* Contact us END */}
-      <div className="gmap-outline map-grayscle">
+      <div className="gmap-outline map-grayscale">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6309.495304446196!2d-122.43885472228101!3d37.74906395235639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7e12a1d66d03%3A0xb8c905ae4e81369b!2sQ-Architecture!5e0!3m2!1sen!2sin!4v1623689156327!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3824.6668040301267!2d83.414380!3d18.099210!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3bcc9b3b93953d%3A0xf27c4f9b64d498c3!2sPlot%2026%2C%20Siva%20Sai%20Nagar%2C%20Vizianagaram%2C%20Andhra%20Pradesh%2C%20India!5e0!3m2!1sen!2sin!4v1699986958445!5m2!1sen!2sin&q=18.099210,83.414380"
           style={{ border: 0 }}
           allowFullScreen
           loading="lazy"
-          title="itodomap"
+          title="location-map"
         />
       </div>
     </>
