@@ -113,9 +113,7 @@ function Footer() {
                         <i className="flaticon-phone" />
                       </div>
                       <div className="widget-info-detail">
-                        <a href="tel:+55(66633)2566">
-                          +{companyDetails.number}
-                        </a>
+                        <p>{companyDetails.number}</p>
                       </div>
                     </li>
                     <li>
