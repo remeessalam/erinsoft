@@ -70,9 +70,9 @@ const FormComponent = () => {
             </div>
             <h2 className="form-title">Let’s Collaborate to Innovate</h2>
             <p className="form-description">
-              At BlueBillionaire.ai, we’re committed to delivering technology
-              solutions that drive business transformation. Contact us today to
-              explore how our expertise can support your business goals.
+              At Erinsoft, we’re committed to delivering technology solutions
+              that drive business transformation. Contact us today to explore
+              how our expertise can support your business goals.
             </p>
           </div>
           <form
