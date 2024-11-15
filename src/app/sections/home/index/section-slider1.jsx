@@ -30,15 +30,15 @@ function SectionSlider1() {
             <div className="container">
               <div className="sx-bnr-1-content">
                 <span
-                  className="sx-bnr-1-small-title"
+                  className="sx-bnr-1-small-title text-shadow"
                   data-swiper-parallax="-300"
                 >
                   We are Focused
                 </span>
-                <h2 className="sx-bnr-1-large-title">
+                <h2 className="sx-bnr-1-large-title text-shadow">
                   Driven and passionate about innovation.
                 </h2>
-                <div className="sx-bnr-1-info">
+                <div className="sx-bnr-1-info text-shadow">
                   We are driven by passion and innovation, constantly striving
                   to push boundaries and embrace new possibilities. Our
                   commitment fuels our dedication to creating impactful
@@ -79,15 +79,15 @@ function SectionSlider1() {
             <div className="container">
               <div className="sx-bnr-1-content">
                 <span
-                  className="sx-bnr-1-small-title"
+                  className="sx-bnr-1-small-title text-shadow"
                   data-swiper-parallax="-300"
                 >
                   We are the finest
                 </span>
-                <h2 className="sx-bnr-1-large-title">
+                <h2 className="sx-bnr-1-large-title text-shadow">
                   We are prepared to tackle IT solutions
                 </h2>
-                <div className="sx-bnr-1-info shadow-sm">
+                <div className="sx-bnr-1-info text-shadow">
                   We are committed to delivering innovative IT solutions,
                   focusing on excellence and efficiency. Our expertise ensures
                   seamless integration and optimal performance, driving success
